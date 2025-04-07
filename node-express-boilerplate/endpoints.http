@@ -1,0 +1,32 @@
+### healthcheck
+
+GET http://localhost:8888/health
+
+
+### create user
+
+POST http://localhost:8888/users
+Content-Type: application/json
+
+{
+  "name": "Phil",
+  "age": 36
+}
+
+### api routes
+
+GET http://localhost:8888/api
+
+### v1 api routes
+
+### list users
+
+GET http://localhost:8888/api/v1/cars/1
+
+### list cars
+
+GET http://localhost:8888/api/v1/pokemon
+
+### v2 api routes
+
+GET http://localhost:8888/api/v2

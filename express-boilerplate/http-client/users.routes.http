@@ -1,0 +1,13 @@
+### CREATE USER
+
+POST http://localhost:8888/api/v1/users
+Content-Type: application/json
+
+{
+  "name": "Calvin",
+  "age": 24
+}
+
+### GET USERS
+
+GET http://localhost:8888/api/v1/users

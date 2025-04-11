@@ -64,7 +64,7 @@ class UsersController extends BaseController {
     // })
 
     const updated = {
-      // ...file,
+      ...file,
       ...payload,
       // updatedAt: new Date().toISOString(),
     };
@@ -78,10 +78,3 @@ class UsersController extends BaseController {
 }
 
 export default new UsersController();
-
-// "id": 1,
-// "name": "Phil",
-// "age": 99,
-// "createdAt": "2025-04-10T03:23:34.862Z",
-// "updatedAt": "2025-04-11T00:58:33.365Z",
-// "deletedAt": null

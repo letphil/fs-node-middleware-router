@@ -10,7 +10,7 @@ Content-Type: application/json
 
 ### GET USERS
 
-GET http://localhost:8888/api/v1/users/
+GET http://localhost:8888/api/v1/users
 
 ### PUT USERS
 
@@ -18,5 +18,5 @@ PUT http://localhost:8888/api/v1/users/1
 Content-Type: application/json
 
 {
-  "age": 99
+  "age": 101
 }

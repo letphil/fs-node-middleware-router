@@ -32,7 +32,12 @@ router.get("{/:id}", function (req, res) {
 
 // UPDATE
 router.put("/:id", function (req, res) {
-  res.send(`update with id - ${req.params.id}`);
+  // res.send(`update with id - ${req.params.id}`);
+  const updated = usersController.update(req.params.id, req.body);
+  res.send({
+    msg: `User updated at ${req.params.id}`,
+    data: updated,
+  });
 });
 
 // DELETE
